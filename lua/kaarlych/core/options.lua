@@ -12,3 +12,9 @@ opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copt indent from current line when starting new one
 
 opt.wrap = false
+
+-- search options 
+opt.ignorecase = true -- ignore case when searching
+opt.smartcase = true -- if u include mixed case in your search, assume u want case sensitive
+
+opt.cursorline = true
